@@ -34,5 +34,11 @@ list = ["apple","banana","cherry","pineapple"]
 print(list[2:5])
 
 
-
+mylist = ["apple","banana","cherry"]
+mylist.append("apple")
+print(mylist)
+mylist = ["apple","banana","cherry"]
+mylist1 = ["mango","cherrry","limejuice","coconut"]
+mylist.extend(mylist1)
+print(mylist)
 

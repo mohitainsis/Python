@@ -70,3 +70,47 @@ print(add(5,6,7,8))
 #         total +=num
 #     return total
 # print(myfunc(2,5,6,7))
+
+# ---------python scope
+
+def my_func():
+    x =300
+    def myinnerfunc():
+        print(x)
+    myinnerfunc()
+my_func()
+
+def myfunc():
+    x = 300
+    def myfunction():
+        print(x)
+    myfunction()
+myfunc()
+
+#------------deocrators
+def changecase(func):
+    def myinner():
+        return func().upper()
+    return myinner
+
+@changecase
+def myfunc():
+    return "Hello world"
+
+print(myfunc)
+
+def changecase(func):
+    def myinner():
+        return func().upper()
+    return myinner
+
+@changecase
+def myfunction():
+    return "Hello sally"
+
+@changecase
+def otherfunction():
+    return "i am speeed"
+
+print(myfunction())
+print(otherfunction())

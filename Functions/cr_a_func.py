@@ -180,3 +180,9 @@ def my_function(person):
 
 my_person ={"name":"emil","age":24}
 my_function(my_person)
+
+#------------combination ofmixing and positional arguments
+def my_function(animal,name,age):
+   print("i have a ",age, "year old", animal, "named",name)
+
+my_function("dog",name = "buddy",age = 5)
