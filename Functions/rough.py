@@ -36,7 +36,7 @@ def myfunc(owner,dog):
 
 myfunc(owner = "mohit",dog = "sheero")
 
-----------positional arguments
+# ----------positional arguments
 def myfunc(owner,dog):
     print("i am ",owner)
     print("my pet name is",dog)
@@ -96,3 +96,5 @@ def my_function(animal,name,age):
     print("i have ",age,"year old",animal,"named",name)
 
 my_function("dog",name = "buddy",age =5)
+
+
