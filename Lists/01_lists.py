@@ -1,44 +1,56 @@
-thisislist = [1, 2, 3, 4, 5]
-print(thisislist)
+# thisislist = [1, 2, 3, 4, 5]
+# print(thisislist)
 
-#getting type of list
-mylist = ["apple ", "banana", "cherry"]
-print (type(mylist))
+# #getting type of list
+# mylist = ["apple ", "banana", "cherry"]
+# print (type(mylist))
 
-#Remove list items
-a = ["12","apple","banana","mango"]
-a.remove("banana")
-print(len(a))
+# #Remove list items
+# a = ["12","apple","banana","mango"]
+# a.remove("banana")
+# print(len(a))
 
-#pop method
-a = ["12","apple","banana","mango"]
-a.pop(1)
-print(len(a))
+# #pop method
+# a = ["12","apple","banana","mango"]
+# a.pop(1)
+# print(len(a))
 
-#If item exists
-a = ["12","apple","banana","mango"]
-if "apple" in a:
-    print ("yes," "apple is in the list")
+# #If item exists
+# a = ["12","apple","banana","mango"]
+# if "apple" in a:
+#     print ("yes," "apple is in the list")
 
-#with
-a = input("Enter your word: ")
-if "orange" in a:
-    print ("yes," "orange is in the list")
+# #with
+# a = input("Enter your word: ")
+# if "orange" in a:
+#     print ("yes," "orange is in the list")
+# else:
+#     print("no","This is not present in the list")
+
+# b = "hello world"
+# print(b[2:5])
+
+# list = ["apple","banana","cherry","pineapple"]
+# print(list[2:5])
+
+
+# mylist = ["apple","banana","cherry"]
+# mylist.append("apple")
+# print(mylist)
+# mylist = ["apple","banana","cherry"]
+# mylist1 = ["mango","cherrry","limejuice","coconut"]
+# mylist.extend(mylist1)
+# print(mylist)
+
+#=--------revision TT
+thislist = ["apple","banana","mango"]
+print(type(thislist))
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[1:5])
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+if "apple" in thislist:
+    print("yes apple is available")
 else:
-    print("no","This is not present in the list")
-
-b = "hello world"
-print(b[2:5])
-
-list = ["apple","banana","cherry","pineapple"]
-print(list[2:5])
-
-
-mylist = ["apple","banana","cherry"]
-mylist.append("apple")
-print(mylist)
-mylist = ["apple","banana","cherry"]
-mylist1 = ["mango","cherrry","limejuice","coconut"]
-mylist.extend(mylist1)
-print(mylist)
-
+    print("no it is not available")
