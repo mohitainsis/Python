@@ -54,3 +54,12 @@ if "apple" in thislist:
     print("yes apple is available")
 else:
     print("no it is not available")
+
+data = [4, 2, 4, 5, 2, 7, 9, 7]
+unique = []
+for x in data:
+    if x not in unique:
+        unique.append(x)
+
+print("Original:", data)
+print("Unique:", unique)
