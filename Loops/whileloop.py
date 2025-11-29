@@ -49,10 +49,19 @@
 #     print(n*i)
 #     i += 1
 
-i = 1
-while i<=5:
-    if (i == 3):
-        i += 1
-        continue
-    print(i)
-    i += 1
+# i = 1
+# while i<=5:
+#     if (i == 3):
+#         i += 1
+#         continue
+#     print(i)
+#     i += 1
+
+num = [3,6,67,78,534,34,6,7]
+num.sort()
+find = 78
+for x in num:
+    if x == find:
+        print("found at index",x)
+        break
+    print(x)
