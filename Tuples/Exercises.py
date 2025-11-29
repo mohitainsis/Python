@@ -50,13 +50,31 @@ we can use index method ex..
 # print(tuple.index("banana"))
 
 #--------question
-movies = []
-movie1st = input("Enter your first  favorite movie:")
-movie2nd = input("Enter your second favorite movie :")
-movie3rd = input("Enter your third favorite movie :")
+# movies = []
+# movie1st = input("Enter your first  favorite movie:")
+# movie2nd = input("Enter your second favorite movie :")
+# movie3rd = input("Enter your third favorite movie :")
 
-movies.append(movie1st)
-movies.append(movie2nd)
-movies.append(movie3rd)
+# movies.append(movie1st)
+# movies.append(movie2nd)
+# movies.append(movie3rd)
 
-print(movies)
+# print(movies)
+
+#---------program to check if the word is palindrome or not
+ 
+# list = [1,2,5]
+# list_copy = list.copy()
+# list_copy.reverse()
+
+# if list_copy == list:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+#program to count the number of students with a grade
+
+grade =["a","b","c","c","a","a"]
+grade.sort()
+print(grade)
+

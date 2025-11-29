@@ -1,37 +1,58 @@
-i = 1
-while i<9:
-    print(i)
-    i = i+1
-    if i ==3:
-        print(i)
-        break
+# i = 1
+# while i<9:
+#     print(i)
+#     i = i+1
+#     if i ==3:
+#         print(i)
+#         break
+
+# i = 1
+# while i<9:
+#     print(i)
+#     i = i+1
+#     if i==4:
+#         break
+    
+# i = 1
+# while i<9:
+#     print(i)
+#     i =i+1
+#     if i ==3:
+#         continue
+#         print(i)
+    
+# i =0
+# while i<9:
+#     i=i+1
+#     if i==3:
+#         continue
+    
+#     print(i)
+
+# i = 1
+# while i<9:
+#      print(i)
+#      i =i+1  
+# else:
+#     print("out of loop")
+
+# i = [1,2,5,6,87,89,90]
+
+# index = 0
+# while index < len(i):
+#     print(i[index])
+#     index += 1
+
+# n = int(input("Enter your number "))
+# i = 1
+# while i<=10:
+#     print(n*i)
+#     i += 1
 
 i = 1
-while i<9:
-    print(i)
-    i = i+1
-    if i==4:
-        break
-    
-i = 1
-while i<9:
-    print(i)
-    i =i+1
-    if i ==3:
+while i<=5:
+    if (i == 3):
+        i += 1
         continue
-        print(i)
-    
-i =0
-while i<9:
-    i=i+1
-    if i==3:
-        continue
-    
     print(i)
-
-i = 1
-while i<9:
-     print(i)
-     i =i+1  
-else:
-    print("out of loop")
+    i += 1
