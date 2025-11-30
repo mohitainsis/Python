@@ -57,11 +57,20 @@
 #     print(i)
 #     i += 1
 
-num = [3,6,67,78,534,34,6,7]
-num.sort()
-find = 78
-for x in num:
-    if x == find:
-        print("found at index",x)
-        break
-    print(x)
+# num = [3,6,67,78,534,34,6,7]
+# num.sort()
+# find = 78
+# for x in num:
+#     if x == find:
+#         print("found at index",x)
+#         break
+#     print(x)
+
+#---writing a program to calculate the first n numbers
+
+num = range(1,6)
+sum = 0
+for i in num:
+    sum += i
+
+print(sum)
