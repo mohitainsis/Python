@@ -64,10 +64,21 @@
 # print("Original:", data)
 # print("Unique:", unique)
 
-list = [1,2,3,5,6]
-list.append(8)
-print(list)
+# list = [1,2,3,5,6]
+# list.append(8)
+# print(list)
 
-list = [5,7,867,53,86]
-list.sort()
-print(list)
+# list = [5,7,867,53,86]
+# list.sort()
+# print(list)
+
+#------string methods
+name = "john"
+replace = name.replace("john","anthony")
+print(replace)
+# print(name.replace("john","anthony"))
+capitalize = replace.capitalize()
+upper = name.upper()
+print(name)
+print(capitalize)
+print(upper)
