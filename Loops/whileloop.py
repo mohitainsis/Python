@@ -66,11 +66,25 @@
 #         break
 #     print(x)
 
-#---writing a program to calculate the first n numbers
 
-num = range(1,6)
-sum = 0
-for i in num:
-    sum += i
+# i = int(input("Enter the number to start "))
+# while i<=20:
+#     num =  int(input("Enter your number "))
+#     if num<=10:
+#         print("The number is less than 10",num )
+#     else:
+#         print("the number is greater than 10",num)
+#     i+=1
+# print("End of loop")
 
-print(sum)
+# value = int(input("press any number to start "))
+# while value!=5:
+#     value = int(input("Enter the right number "))
+#     print("You are wrong try again")
+# print("End of the loop")
+
+table = range(1,11)
+for i in table:
+    if i==6:
+        break
+    print("5 X",i,"=",5*i)

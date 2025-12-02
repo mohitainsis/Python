@@ -76,3 +76,25 @@
 # num = int(input("Enter your number "))
 # for x in range(1,11):
 #     print(x*num)
+
+# colors = ["red","blue","orange","banana"]
+# for word in colors:
+#     print(word)
+#     for i in word:
+#         print(i)
+
+# i = int(input("Enter the number to start "))
+# while i<=20:
+#     num =  int(input("Enter your number "))
+#     if num<=10:
+#         print("The number is less than 10",num )
+#     else:
+#         print("the number is greater than 10",num)
+#     i+=1
+# print("End of loop")
+
+value = int(input("press any number to start "))
+while value!=5:
+    value = int(input("Enter the right number "))
+    print("You are wrong try again")
+print("End of the loop")
