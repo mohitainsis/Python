@@ -25,6 +25,24 @@ my_function("tobias")
 my_function()
 my_function("linus")
 
+#-------------------
+def calc(a, b):
+    return a + b, a - b
+
+add_result, sub_result = calc(10, 3)
+print("Add:", add_result)
+print("Subtract:", sub_result)
+
+
+def double(x):
+    return x * 2
+
+def triple_and_double(y):
+    return double(y) + y * 3
+
+print(triple_and_double(4))
+
+
 def myfunc(country = "didnt tell"):
     print("hellow",country)
 
