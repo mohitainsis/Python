@@ -23,6 +23,10 @@ def average(*numbers):
     sum = 0
     for i in numbers:
         sum = sum+i
-    print("Average is: ",sum / len(numbers))
+        print(sum)
+    return "Average is ",6
+    return "Average is: ",sum / len(numbers)
 
-average(5,6,76,8)
+
+avg = average(5,5,5)
+print(avg)
