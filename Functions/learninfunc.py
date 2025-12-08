@@ -25,8 +25,9 @@ def average(*numbers):
         sum = sum+i
         print(sum)
     return "Average is ",6
-    return "Average is: ",sum / len(numbers)
+    print("Average is: ",sum / len(numbers))
 
 
 avg = average(5,5,5)
 print(avg)
+average(5,6,7,7)
