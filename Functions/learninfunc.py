@@ -19,15 +19,32 @@
 
 # avg(5,6,7)
 
-def average(*numbers):
-    sum = 0
-    for i in numbers:
-        sum = sum+i
-        print(sum)
-    return "Average is ",6
-    print("Average is: ",sum / len(numbers))
+# def average(*numbers):
+#     sum = 0
+#     for i in numbers:
+#         sum = sum+i
+#         print(sum)
+#     return "Average is ",6
+#     print("Average is: ",sum / len(numbers))
 
 
-avg = average(5,5,5)
-print(avg)
-average(5,6,7,7)
+# avg = average(5,5,5)
+# print(avg)
+# average(5,6,7,7)
+
+def myfunc(a,b,c):
+    print(a,b,c)
+
+numbers = [1,2,3]
+# result = myfunc(*numbers)
+print(*numbers)
+
+var1 = "this is global variable"
+def func():
+    var2 = "this is local variable"
+    print(var2)
+    print(var1)
+
+print(var1)
+# print(var2)
+func()

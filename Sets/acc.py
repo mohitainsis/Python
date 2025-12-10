@@ -40,7 +40,3 @@
 # print(i)
 # print(type(i))
 # print(i[1])
-
-i = (1,2,3,34,5,5,6,3,3,3,3)
-print(type(i))
-print(i[1])
