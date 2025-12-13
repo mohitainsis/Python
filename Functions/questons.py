@@ -1,70 +1,101 @@
-# cities =["gurgao","noida","delhi","chennai"]
-# def myfunc(cities):
-#     print(len(cities))
+# # cities =["gurgao","noida","delhi","chennai"]
+# # def myfunc(cities):
+# #     print(len(cities))
 
-# cities =["delhi","gurgao","noida","puna"]
-# heroes = ["mspiderman","captain america"]
+# # cities =["delhi","gurgao","noida","puna"]
+# # heroes = ["mspiderman","captain america"]
 
-# print(heroes[0],end = "")
-# print(heroes[1],end = "")
+# # print(heroes[0],end = "")
+# # print(heroes[1],end = "")
 
-# # def print_len(list):
-# #     print(len(list))
-
-
-# # n = 5
-# # fact = 1
-# # for i in range (1,n+1):
-# #     fact =  i*fact
-# # print(fact)
-
-# #write a function to convert usd to inr
-
-def print_len(list):
-    print(len(list))
-
-n = 5
-fact = 1
-for i in range (1,n+1):
-    fact = i*fact
-    print(fact)
-
-# write a function to conver usd to inr 
-def usd_to_inr(usd):
-    inr = usd * 82.74
-    return inr
-
-amount_in_usd = 100
-
-print("amountin irn:",amount_in_usd)
-
-converted_amount = usd_to_inr(amount_in_usd)
-print("converted amount in inr:",converted_amount)
+# # # def print_len(list):
+# # #     print(len(list))
 
 
-def myfunc(country = "norway"):
-    print("i am from ",country)
-    myfunc("sweden")
-    myfunc("india")
-    myfunc()
+# # # n = 5
+# # # fact = 1
+# # # for i in range (1,n+1):
+# # #     fact =  i*fact
+# # # print(fact)
 
-myfunc("brazil")
+# # #write a function to convert usd to inr
 
-def find_index(lst,element):
-    for index, item in enumerate(lst):
-        if item == element:
-         return index
-    return -1
+# def print_len(list):
+#     print(len(list))
 
-print(find_index ([1,2,3,4,5],3))
+# n = 5
+# fact = 1
+# for i in range (1,n+1):
+#     fact = i*fact
+#     print(fact)
 
-#----------finding the sum of even numbers
-def sum_even_numbers(lst):
+# # write a function to conver usd to inr 
+# def usd_to_inr(usd):
+#     inr = usd * 82.74
+#     return inr
+
+# amount_in_usd = 100
+
+# print("amountin irn:",amount_in_usd)
+
+# converted_amount = usd_to_inr(amount_in_usd)
+# print("converted amount in inr:",converted_amount)
+
+
+# def myfunc(country = "norway"):
+#     print("i am from ",country)
+#     myfunc("sweden")
+#     myfunc("india")
+#     myfunc()
+
+# myfunc("brazil")
+
+# def find_index(lst,element):
+#     for index, item in enumerate(lst):
+#         if item == element:
+#          return index
+#     return -1
+
+# print(find_index ([1,2,3,4,5],3))
+
+# #----------finding the sum of even numbers
+# def sum_even_numbers(lst):
+#     total = 0
+#     for num in lst:
+#        if num % 2 == 0:
+#           total += num
+#     return total
+
+# print(sum([1,2,3,3,5,6,6,7]))
+   
+
+# import math
+# def area(radius):
+#      a=math.pi * radius * 2
+#      b=2*math.pi*radius
+#      print(a,b)
+
+# area(2)
+
+#---------------
+
+# def sum_all(num):
+#     total = 0
+#     for i in num:
+#         total += i
+#     return total
+
+# numbers = [1, 2, 3, 4, 5, 6]
+# result = sum_all(numbers)
+# print(result)
+
+def func(num):
     total = 0
-    for num in lst:
-       if num % 2 == 0:
-          total += num
+    for i in num:
+        total = total + i
     return total
 
-print(sum([1,2,3,3,5,6,6,7]))
-   
+
+print(func([1,3,4,5,56,6]))
+result = func([3,5,6,6,5,776])
+print(result)

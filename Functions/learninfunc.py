@@ -86,11 +86,17 @@
 # print(result)
 
 
-import math
-def area(radius):
-    area = math.pi * radius * 2
-    circumference = 2*math.pi*radius
-    return area,circumference
+# import math
+# def area(radius):
+#     area = math.pi * radius * 2
+#     circumference = 2*math.pi*radius
+#     return area,circumference
 
-a,b = area(2)
-print("Area:",a,"circumference :",b)
+# a,b = area(2)
+# print("Area:",a,"circumference :",b)
+
+
+def func(name = "user"):
+    return "hello " + name
+
+print(func())
