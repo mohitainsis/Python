@@ -1,7 +1,7 @@
 num = int(input("Enter your nummber : "))
 
 try:
- for i in range(1,11):
+    for i in range(1,11):
         print(f"{ num} X { i}=",num*i)
 except:
     print("Error")

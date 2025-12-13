@@ -32,19 +32,65 @@
 # print(avg)
 # average(5,6,7,7)
 
-def myfunc(a,b,c):
-    print(a,b,c)
+# def myfunc(a,b,c):
+#     print(a,b,c)
 
-numbers = [1,2,3]
-# result = myfunc(*numbers)
-print(*numbers)
+# numbers = [1,2,3]
+# # result = myfunc(*numbers)
+# print(*numbers)
 
-var1 = "this is global variable"
-def func():
-    var2 = "this is local variable"
-    print(var2)
-    print(var1)
+# var1 = "this is global variable"
+# def func():
+#     var2 = "this is local variable"
+#     print(var2)
+#     print(var1)
 
-print(var1)
-# print(var2)
-func()
+# print(var1)
+# # print(var2)
+# func()
+
+# def myfunc():
+#     x = 200
+#     def myinnerfunc():
+#         print(x)
+#     myinnerfunc()
+    
+# myfunc()
+
+# x = 500
+# def func():
+#    global x
+#    x = 100
+#    print(x)
+   
+# func()
+# print(x)
+ 
+# def myfunc(numbers):
+#    return numbers**2
+
+# result = myfunc(5)
+# print(result)
+
+# def func(num1,num2):
+#     sum = num1+num2
+#     return sum
+
+# result = func(2,4)
+# print(result)
+
+# def multiply(p1,p2):
+#     return (p1*p2)
+
+# result = multiply(2,2)
+# print(result)
+
+
+import math
+def area(radius):
+    area = math.pi * radius * 2
+    circumference = 2*math.pi*radius
+    return area,circumference
+
+a,b = area(2)
+print("Area:",a,"circumference :",b)
