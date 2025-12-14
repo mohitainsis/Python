@@ -89,13 +89,18 @@
 # result = sum_all(numbers)
 # print(result)
 
-def func(num):
-    total = 0
-    for i in num:
-        total = total + i
-    return total
+# def func(num):
+#     total = 0
+#     for i in num:
+#         total = total + i
+#     return total
 
 
-print(func([1,3,4,5,56,6]))
-result = func([3,5,6,6,5,776])
-print(result)
+# print(func([1,3,4,5,56,6]))
+# result = func([3,5,6,6,5,776])
+# print(result)
+
+def func(*args):
+    return sum(args)
+
+print(func(1,3,4,45,5,5))
