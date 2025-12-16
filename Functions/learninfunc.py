@@ -96,7 +96,22 @@
 # print("Area:",a,"circumference :",b)
 
 
-def func(name = "user"):
-    return "hello " + name
+# def func(name = "user"):
+#     return "hello " + name
 
-print(func())
+# print(func())
+
+# def func():
+#     for i in range(1,10):
+#         print(i)
+#         if i == 4 :
+#            print(" 4 is found")
+#     else:
+#         print("the loop is completete")
+
+# func()
+
+a = int(input("Enter ur number : "))
+for i in range(1,10):
+    print(a*i)
+
