@@ -9,4 +9,4 @@ except:
 
 print("another code starts to run after the above one ")
 print("hfhsdfklsd")
- 
+a = input
