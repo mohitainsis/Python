@@ -15,18 +15,24 @@
 
 #--swapping the numbers
 
-x = 56
-y = 88
+# x = 56
+# y = 88
 
-temp = x #(56)
+# temp = x #(56)
 
-x = y
-print("The value of x ", x)
+# x = y
+# print("The value of x ", x)
 
-y = temp
-print("The value of y ",y)  #(56)
+# y = temp
+# print("The value of y ",y)  #(56)
 
 
-# x =y 
-# y =x
-# print(x,y)
+# # x =y 
+# # y =x
+# # print(x,y)
+
+x = 78
+y = 89
+x,y = y,x
+print(x)
+print(y)

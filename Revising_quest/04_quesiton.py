@@ -19,7 +19,9 @@ for i in lis:
         count[i] = count[i] + 1
     else:
         count[i] = 1
+
 for i in lis:
     if count[i] == 1:
         print(i)
+
 print(count)
