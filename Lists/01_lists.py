@@ -151,15 +151,43 @@ numbers = [1,2,3,4,5,6,7,8,9]
 #   multiply.append(x*2)
 # print(multiply)
 
-even = []
-for x in numbers:
-   if x % 2 == 0:
-      even.append(x)
-print(even)
+# even = []
+# for x in numbers:
+#    if x % 2 == 0:
+#       even.append(x)
+# print(even)
 
-fruits = ["apple","banana","mango","kiwi","melon"]
-letter_a = []
-for x in fruits:
-   if "a" not in x:
-      letter_a.append(x)
-print(letter_a)
+# fruits = ["apple","banana","mango","kiwi","melon"]
+# letter_a = []
+# for x in fruits:
+#    if "a" not in x:
+#       letter_a.append(x)
+# print(letter_a)
+
+# numbers = [1,2,3,4,5]
+# newlist = []
+# for x in numbers:
+#     newlist.append(x**2)
+# print(newlist)
+
+# words = ["python","sql","powerbi","excel"]
+# upper = []
+# for x in words:
+#     upper.append(x.upper())
+# print(upper)
+
+# numbers = [5,10,15,20,25]
+# new = []
+# for x in numbers:
+#     if x>10:
+#         new.append(x)
+# print(new)
+
+numbers = [1,2,3,4,5,6]
+square = []
+for x in numbers:
+   if x%2==0:
+      square.append(x**2)
+print(square)    
+
+
